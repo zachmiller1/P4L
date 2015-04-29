@@ -1,0 +1,133 @@
+/* ====================
+	HEADER
+======================= */
+
+.navbar {
+	margin-bottom: 0 !important;
+}
+
+.mainNav {
+	padding: 1em 0 2em;
+
+	@media screen and (min-width: 499px) {
+		padding: 1.875em 0 2.6em;
+	}
+
+	.navbar-toggle, .navbar-toggle-collapsed {
+		background-color: $dark-color;
+		border: none;
+
+		&:hover {
+			background-color: $dark-color !important;
+		}
+	}
+
+	@media screen and (min-width: 499px) {
+		.navbar-toggle:before {
+			content: "MENU";
+			left: -62px;
+			top: -2px;
+			position: absolute;
+			width: 50px;
+			font-family: $main-font;
+			font-size: 1.5em;
+		}
+	}
+
+	.navbar-collapse {
+		border: none;
+	}
+
+	.navbar-nav {
+		@media screen and (min-width: 991px) {
+			float: right;
+		}
+
+		a {
+			color: #222 !important;
+			text-transform: uppercase;
+			padding: 1em;
+			font-size: 1em;
+
+			&:hover {
+				color: $light-color !important;
+			}
+		}
+	}
+
+	@media screen and (min-width: 767px) and (max-width: 991px) {
+		.navbar-header {
+	        float: none;
+		}
+	    .navbar-toggle {
+	        display: block;
+	    }
+	    .navbar-collapse {
+	        border-top: 1px solid transparent;
+	        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	    }
+	    .navbar-collapse.collapse {
+	        display: none!important;
+	    }
+	    .navbar-nav {
+	        float: none!important;
+	        margin: 7.5px -15px;
+	    }
+	    .navbar-nav>li {
+	        float: none;
+	    }
+	    .navbar-nav>li>a {
+	        padding-top: 10px;
+	        padding-bottom: 10px;
+	    }
+	    .navbar-text {
+	        float: none;
+	        margin: 15px 0;
+	    }
+	    /* since 3.1.0 */
+	    .navbar-collapse.collapse.in { 
+	        display: block!important;
+	    }
+	    .collapsing {
+	        overflow: hidden!important;
+	    }
+		}
+
+		.icon-bar {
+			background-color: #fff !important;
+		}
+	}
+
+.logo {
+	font-size: 2.25em;
+	color: #222 !important;
+	text-align: left;
+
+	@media screen and (min-width: 499px) {
+		margin: 0 auto;
+		display: inline-block;
+	}
+}
+
+.subLogo {
+	display: block;
+	font-size: 0.35em !important;
+	color: $accent-color;
+	line-height: 2.5;
+
+	@media screen and (min-width: 499px) {
+		font-size: 0.4em !important;
+	}
+}
+
+#freeQuote {
+	@media screen and (min-width: 991px) {
+		background-color: $light-color;
+		color: #fff !important;
+		border-radius: 5px;
+
+		&:hover {
+			background-color: $accent-color;
+		}
+	}
+}

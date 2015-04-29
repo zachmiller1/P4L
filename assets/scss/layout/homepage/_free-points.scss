@@ -1,0 +1,29 @@
+/* ====================
+	FREE POINTS
+======================= */
+
+.free-points {
+	background-color: #eee;
+
+	p {
+		color: $dark-color;
+		font-family: $main-font;
+		text-transform: uppercase;
+	}
+
+	.col-sm-3 {
+		margin-bottom: 2em;
+	}
+
+	.free-icon i {
+		color: $accent-color !important;
+		padding: 0.5em;
+		background-color: #fff;
+		border-radius: 50%;
+		margin-bottom: 0.125em;
+	}
+
+	@media screen and (min-width: 767px) {
+		
+	}
+}

@@ -1,0 +1,72 @@
+/* ====================
+	CLIENTS
+======================= */
+
+.clients {
+	background-color: $lightgrey;
+
+	h3 {
+		margin-bottom: 2em;
+		font-size: 1.875em;
+
+		@media screen and (min-width: 767px) {
+			font-size: 2em;
+		}
+
+		@media screen and (min-width: 1199px) {
+			margin-bottom: 0em;
+		}
+	}
+
+	.indy {
+		width: 35%;
+	}
+
+	.client-img-container {
+
+		@media screen and (min-width: 550px) {
+			margin-top: 5em;
+		}
+
+		@media screen and (min-width: 767px) {
+			margin-top: 10em;
+		}
+
+		@media screen and (min-width: 1199px) {
+			margin-top: 6em;
+		}
+	}
+
+	.client-img {
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+		margin-bottom: 5em;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		@media screen and (min-width: 767px) {
+			margin-bottom: 7em;
+		}
+
+		@media screen and (min-width: 991px) {
+			margin-bottom: 0;
+		}
+	}
+
+	img {
+		margin: 0 auto;
+		max-width: 50%;
+
+		@media screen and (min-width: 767px) {
+			max-width: 100%;
+		}
+
+		@media screen and (min-width: 1199px) {
+			vertical-align: middle;
+			max-width: 80%;
+		}
+	}
+}

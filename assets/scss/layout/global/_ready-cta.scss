@@ -1,0 +1,36 @@
+/* ====================
+	READY CTA
+======================= */
+
+.readyCTA {
+	background-color: $lighter-color;
+
+	h3 {
+		margin-top: 0 !important;
+		color: #fff !important;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+	}
+
+	a {
+		background-color: $lighter-color !important;
+		text-transform: uppercase;
+		border: 3px solid #fff;
+		padding: 0.5em;
+		font-size: 1.125em;
+		margin-bottom: 5em !important;
+
+		&:hover {
+			color:#fff;
+
+			@media screen and (min-width: 991px) {
+				color: $dark-color;
+				border-color: $dark-color;
+			}
+		}
+	}
+
+	.row {
+		padding-bottom: 0.75em;
+	}
+}

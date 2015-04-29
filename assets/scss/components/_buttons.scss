@@ -1,0 +1,25 @@
+/* ====================
+	BUTTONS
+======================= */
+
+.p4l-btn {
+		border: 0;
+		border-radius: 0;
+		background-color: $accent-color !important;
+		color: #fff;
+		font-size: 1em;
+		font-family: $main-font;
+		text-transform: uppercase;
+		padding: 0.75em 1.5em;
+		width: 100%;
+
+		&:hover {
+			color: #fff;
+		}
+
+		@media screen and (min-width: 991px) {
+			&:hover {
+				background-color: lighten($accent-color, 5%) !important;
+			}
+		}
+	}

@@ -1,0 +1,77 @@
+/* ====================
+	TOPBAR
+======================= */
+
+.navbar.topBar {
+	min-height: 40px;
+}
+
+.topBar {
+	background-color: $dark-color;
+	color: #fff;
+	padding: 0.625em 0;
+	margin-bottom: 0;
+
+	.social {
+		font-size: 12px;
+		line-height: 0;
+
+		@media screen and (min-width: 991px) {
+			font-size: 12px;
+			text-align: left;
+			padding: 0;
+		}
+
+		.social-icons {
+			li {
+				display: inline
+			}
+		
+			a {
+				display: inline-block;
+				padding: 0 0.875em;
+
+				&:hover {
+					color: #fff;
+				}
+
+				@media screen and (min-width: 991px) {
+					&:hover {
+						color: $lighter-color;
+					}
+				}
+			}
+		}
+	}
+
+	.misc {
+		display: none;
+
+		@media screen and (min-width: 767px) {
+			display: none;
+		}
+
+		@media screen and (min-width: 991px) {
+			display: block;
+			text-align: right;
+			font-size: 14px;
+
+			a {
+				&:hover {
+					color: $lighter-color !important;
+				}
+			}
+
+			.mail {
+				margin-right: 1.5em;
+			}
+		}
+	}
+
+	.fa-envelope-o {
+		color: $accent-color;
+		margin-right: 5px;
+	}
+
+
+}

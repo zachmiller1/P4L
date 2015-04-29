@@ -1,0 +1,36 @@
+/* ====================
+	MAIN
+======================= */
+
+.why-us {
+
+	h2 {
+		font-size: 2.75em;
+		margin-bottom: 0.5em;
+	}
+
+	h3 {
+		font-size: 1.75em;
+		color: $light-color;
+	}
+
+	.intro {
+		margin-bottom: 3em;
+	}
+
+	.picture-box {
+		background-image: url('../img/prices.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		max-height: 200px;
+		width: 100%;
+	}
+
+	.main-point {
+		margin-bottom: 3em;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}

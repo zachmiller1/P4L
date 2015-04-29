@@ -1,0 +1,82 @@
+/* ====================
+	HERO
+======================= */
+
+.hero {
+	background: 
+		url('../img/hero-patches-opt.png') no-repeat bottom,
+		url('../img/bg-pattern-teal.png') repeat;
+	background-image: cover;
+	color: #fff !important;
+	position: relative;
+	padding-bottom: 22em;
+
+	.toll-free {
+		background-color: rgba(238, 238, 238, 0.5);
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		padding: 0.25em 0;
+		font-family: $main-font;
+
+		p {
+			margin-bottom: 0 !important;
+			color: #888;
+		}
+
+		a {
+			font-size: 2em;
+			color: $accent-color;
+		}
+	}
+
+	.hero-main {
+		margin-top: 3em;
+
+		h1 {
+			font-size: 2.5em;
+			text-align: left;
+		}
+
+		p {
+			text-align: left;
+		}
+
+		a {
+			text-transform: uppercase;
+			background-color: $accent-color;
+			border: none;
+			font-size: 1.5em;
+			width: 100%;
+			padding: 0.5em;
+		}
+
+		@media screen and (min-width: 767px) {
+			h1, p {
+				text-align: center !important;
+				font-size: 3em;
+			}
+
+			p {
+				width: 80%;
+				margin: 0 auto;
+				margin-bottom: 2em;
+				font-size: 1.25em;
+			}
+		}
+
+		@media screen and (min-width: 1199px) {
+			h1, p {
+				text-align: left !important;
+			}
+			p {
+				margin: 0;
+			}
+		}
+	}
+
+	@media screen and (min-width: 1199px) {
+		padding-bottom: 21em !important;
+	}
+}

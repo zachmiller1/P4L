@@ -1,0 +1,39 @@
+/* ====================
+	BOTTOMBAR
+======================= */
+
+.bottomBar {
+	background-color: $dark-color;
+	color: #fff;
+	font-family: $main-font;
+	font-size: 0.875em;
+	padding: 1em 0;
+
+	@media screen and (min-width: 1169px) {
+		.col-sm-6 {
+			text-align: right;
+		}
+
+		.copyright {
+			text-align: left;
+		}
+	}
+
+	a {
+		&:hover {
+			color: #fff;
+		}
+			
+		@media screen and (min-width: 991px) {
+			&:hover {
+				color: $light-color;
+			}
+		}
+	}
+
+	@media screen and (min-width: 767px) {
+		p {
+			margin-bottom: 0;
+		}
+	}
+}

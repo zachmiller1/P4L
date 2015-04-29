@@ -1,0 +1,21 @@
+/* ====================
+	MAIN
+======================= */
+
+.categories {
+	padding: 0;
+	margin-bottom: 2em;
+
+	a {
+		color: #222 !important;
+		text-transform: uppercase;
+	}
+
+	.flexslider {
+		background-color: #eee;
+
+		img {
+			max-height: 100px;
+		}
+	}
+}

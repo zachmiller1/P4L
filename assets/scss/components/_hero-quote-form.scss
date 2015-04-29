@@ -1,0 +1,46 @@
+/* ====================
+	HERO QUOTE FORM
+======================= */
+
+.quoteForm {
+	background-color: rgba(238, 238, 238, 0.96); 
+	border-radius: 0 0 10px 10px;
+	padding-bottom: 1em;
+	-webkit-box-shadow: 0px 5px 27px 0px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow:    0px 5px 27px 0px rgba(0, 0, 0, 0.3);
+	box-shadow:         0px 5px 27px 0px rgba(0, 0, 0, 0.3);
+	margin-bottom: -18em;
+
+	h2 {
+		padding: 0.75em 0;
+		background-color: $accent-color;
+		color: #fff;
+		text-transform: uppercase;
+		margin-top: 0;
+	}
+
+	input, select {
+		border: none;
+		border-radius: 0;
+		color: #bbb;
+		font-family: $main-font;
+		text-align: center;
+		width: 70%;
+		margin: 0 auto;
+		padding: 1.75em 0;
+	}
+
+	.form-header {
+		margin-bottom: 2em;
+	}
+
+	.p4l-btn {
+		width: auto;
+		font-size: 1.125em;
+		padding: 0.75em 2em;
+	}
+
+	@media screen and (min-width: 1199px) {
+		margin-top: 3em;
+	}
+}
